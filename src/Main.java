@@ -13,7 +13,6 @@ public class Main {
         Bicycle bicycle2 = new Bicycle("bicycle2",2);
 
 
-
         ServiceStation1 station1 = new ServiceStation1();
         station1.check(car, null, null);
         station1.check(car2, null, null);
@@ -21,6 +20,5 @@ public class Main {
         station1.check(null, bicycle2, null);
         station1.check(null, null, truck);
         station1.check(null, null, truck2);
-
     }
 }

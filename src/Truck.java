@@ -9,7 +9,6 @@ public class Truck extends Bicycle {
     public String toString() {
         return "Truck{}";
     }
-
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
